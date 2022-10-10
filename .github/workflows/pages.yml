@@ -57,5 +57,5 @@ jobs:
           weatherBaseUrl: ${{secrets.weatherBaseUrl}}
           XRapidAPIKeyLabel: ${{secrets.XRapidAPIKeyLabel}}
           XRapidAPIKey: ${{secrets.XRapidAPIKey}}
-          XRapidAPIHostLabel: ${{secretsXRapidAPIHostLabel}}
+          XRapidAPIHostLabel: ${{secrets.XRapidAPIHostLabel}}
           XRapidAPIHost: ${{secrets.XRapidAPIHost}}
