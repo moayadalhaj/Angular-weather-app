@@ -49,10 +49,10 @@ jobs:
         uses: actions/checkout@master
       - name: Install Dependencies
         run: npm ci
-        working-directory: ./app
+        working-directory: ./docs
       - name: Build
         run: npm run build
-        working-directory: ./app
+        working-directory: ./docs
         env:
           weatherBaseUrl: ${{secrets.weatherBaseUrl}}
           XRapidAPIKeyLabel: ${{secrets.XRapidAPIKeyLabel}}
